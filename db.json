@@ -1,11 +1,44 @@
 {
     "cats":[{
+      "id": 1, 
       "Name": "Mochi",
+      "Question": "How does drinking milk affect Cats ? ",
       "Fact":"Most cats are lactose intolerant, and milk can cause painful stomach cramps and diarrhea. It's best to forego the milk and just give your cat the standard: clean, cool drinking water.",
-      "Image":"https://www.purina.co.uk/sites/default/files/2021-01/Article%20Hero-%20cat%20milk.jpg",
+      "Image":"https://tippvet.com/wp-content/uploads/2021/02/bigstock-157857800.jpg",
+      "IsLiked":true
+    },
+    {
+      "id": 2, 
+      "Name": "Chase",
+      "Question":"How often should cat's litter box be cleaned ?" ,
+      "Fact":"Cats need a clean litter box: Cats are very clean animals and need a clean litter box to use the bathroom. Scoop the litter box at least once a day, and clean it thoroughly once a week.",
+      "Image":"https://cdn.shopify.com/s/files/1/0997/4496/articles/shutterstock_1166802160_905479a3-1975-4895-bd19-ea1666afd664_1200x.jpg?v=1640101408",
+      "IsLiked":true
+    },
+    {
+      "id": 3, 
+      "Name": "Charlie",
+      "Question":"How many times should a cat visit the veterinary clinic ? ",
+      "Fact":"Regular veterinary check-ups are important for maintaining your cat's health. Cats should see a veterinarian at least once a year for a comprehensive physical exam, vaccinations, and parasite prevention. Early detection and treatment of health issues can help prevent more serious problems down the line.",
+      "Image":"https://pbs.twimg.com/media/E0_kV-DWUAEJyBA?format=jpg&name=medium",
+      "IsLiked":true
+    },
+    {
+      "id": 4, 
+      "Name": "Simba",
+      "Question": "How can we keep cats happy at home ? ",
+      "Fact":"it's important to provide opportunities for your cat to engage in natural behaviors, such as scratching, climbing, and exploring. Providing scratching posts, perches, and other cat-friendly furniture can help keep your cat mentally and physically stimulated. By providing your cat with plenty of opportunities for play and exercise, you can help keep them happy, healthy, and entertained.",
+      "Image":"https://marvel-b1-cdn.bc0a.com/f00000000202027/www.wellnesspetfood.com/sites/default/files/inline-images/iStock-618341526.jpg",
+      "IsLiked":true
+    },
+    {   
+       "id": 5, 
+      "Name": "Oliver",
+      "Question":"How regularly should a cat be given a bath",
+      "Fact":"Cats are generally fastidious animals that groom themselves regularly, and they usually do not require frequent baths. In fact, frequent bathing can strip their coat of natural oils and cause skin irritation.In general, healthy cats with normal coats do not need to be bathed more than a few times a year. However, some cats may need more frequent bathing if they have certain medical conditions or if they have gotten into something particularly dirty or smelly",
+      "Image":"https://petkeen.com/wp-content/uploads/2021/05/cat-bath_-KDdesignphoto_Shutterstock-1536x773.webp",
       "IsLiked":true
     }
-    
     ]
 }
  

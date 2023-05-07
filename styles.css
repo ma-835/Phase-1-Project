@@ -1,3 +1,23 @@
-body {
-    background-color: cadetblue;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.catName {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.catImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
