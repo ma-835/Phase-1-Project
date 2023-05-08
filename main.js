@@ -25,9 +25,30 @@ function renderCat(cat) {
   catImage.src = cat.Image 
   console.log(catImage)
   catObject.classList.add("catImage")
- // add catImage to main catObject 
+
+  //fact part
+  const fact = document.createElement("p")
+  fact.textContent = cat.Fact
+  fact.style.display = "none"
+ 
+  catObject.classList.add("fact")
+  const revealButton = document.createElement("button")
+  revealButton.textContent = "Reveal answer"
+  catObject.classList.add("revealButton")
+  catObject.appendChild(revealButton)
+
+  revealButton.addEventListener("click",function () {
+  if (fact.style.display === "none") {
+    fact.style.display = "block"
+  } else {
+    fact.style.display = "none"
+  }
+  })
   catObject.appendChild(catName)
   catObject.appendChild(question)
   catObject.appendChild(catImage)
+  catObject.appendChild(fact)
+  catObject.appendChild(revealButton)
   container.append(catObject)
   }
+  
